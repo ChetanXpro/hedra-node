@@ -1,0 +1,16 @@
+
+node_modules/
+
+*.tsbuildinfo
+
+.npm
+
+.eslintcache
+
+
+dist
+npm-debug.log*
+
+
+.DS_Store
+Thumbs.db
