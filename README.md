@@ -85,20 +85,6 @@ generateVideo().catch(console.error);
 
 For detailed API reference, type information, and advanced usage examples, please refer to the [full documentation](https://www.hedra.com/docs).
 
-## Error Handling
-
-The package includes utilities for handling API errors:
-
-```typescript
-import { handleApiError } from 'hedra/dist/utils/api';
-
-try {
-  // API calls
-} catch (error) {
-  handleApiError(error);
-}
-```
-
 ## Contributions
 
 As an unofficial client, contributions, issues, and feature requests are welcome. Please feel free to submit pull requests or open issues on the GitHub repository.
