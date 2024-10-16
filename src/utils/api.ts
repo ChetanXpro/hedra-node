@@ -1,19 +1,7 @@
-import { AxiosError, AxiosInstance } from 'axios';
+import {  AxiosInstance } from 'axios';
 import { AvatarProjectItem } from '../types';
 
-export class ApiError extends Error {
-  constructor(message: string, public status: number) {
-    super(message);
-    this.name = 'ApiError';
-  }
-}
 
-export function handleApiError(error: AxiosError): never {
-  if (error.response) {
-    throw new ApiError(error.response.data.message || 'An error occurred', error.response.status);
-  }
-  throw new ApiError(error.message, 500);
-}
 
 export async function pollForCompletion(
     axiosInstance: AxiosInstance,
