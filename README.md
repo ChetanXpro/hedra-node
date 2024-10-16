@@ -110,3 +110,4 @@ MIT
 ---
 
 **Note:** This client is based on the public Hedra API documentation. For the most up-to-date and official information about the Hedra API, please refer to the [official Hedra API documentation](https://www.hedra.com/docs).
+
